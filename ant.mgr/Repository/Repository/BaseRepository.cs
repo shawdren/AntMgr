@@ -30,8 +30,8 @@ namespace Repository
         /// <summary>
         /// DB
         /// </summary>
-        public MysqlDbContext<AntEntity> DB => DbModel.DbContext.DB;
-
+        public SqlServerlDbContext<AntEntity> DB => DbModel.DbContext.DB;
+        
 
         /// <summary>
         /// automapper
